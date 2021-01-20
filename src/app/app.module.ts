@@ -5,8 +5,11 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { MenuComponent } from './menu/menu.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import {RouterModule} from '@angular/router';
 import { HeaderComponent } from './header/header.component';
+import {AppRoutingModule} from './app.routes';
+import {MaterialModule} from './material.module';
+import {FontAwesomeModule} from '@fortawesome/angular-fontawesome';
+import {FlexLayoutModule} from '@angular/flex-layout';
 
 @NgModule({
   declarations: [
@@ -18,7 +21,10 @@ import { HeaderComponent } from './header/header.component';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    RouterModule
+    AppRoutingModule,
+    MaterialModule,
+    FontAwesomeModule,
+    FlexLayoutModule
   ],
   providers: [],
   bootstrap: [AppComponent]
