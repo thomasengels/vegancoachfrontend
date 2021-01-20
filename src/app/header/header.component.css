@@ -1,0 +1,21 @@
+.jumbotron {
+  background-image: url("../../assets/images/banner.svg");
+  background-size: cover;
+  margin: 2em 2em 2em 2em;
+  height: 100vh;
+  display: block;
+  position: relative;
+}
+
+fa-icon:not(:last-child){
+  margin-right: 1em;
+}
+
+.low-menu {
+  margin-bottom: 0;
+}
+
+
+#socialMediaBar {
+  display: block !important;
+}
