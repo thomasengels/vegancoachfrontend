@@ -1,0 +1,10 @@
+@font-face {
+  font-family: playlist, cursive;
+  src: url("src/assets/font/Playlist Script.otf");
+}
+
+
+h1 {
+  font-family: playlist, sans-serif !important;
+  font-size: xx-large;
+}
